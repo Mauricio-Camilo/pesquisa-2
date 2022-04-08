@@ -1,8 +1,8 @@
 import somar from "./somar";
-// import "../css/index.css";
+import "../css/index.css";
 import img from "../assets/coca.png"
 
-const num1 = 60;
+const num1 = 10;
 const num2 = 10;
 
 const soma = somar(num1, num2);
@@ -10,7 +10,7 @@ const soma = somar(num1, num2);
 console.log(soma);
 
 const texto = () => {
-    // const element = document.createElement('div');
+    // const element = document.createElement('h1');
     // element.innerHTML = "Olá mundo!";
     const myImage = document.createElement("img");
     myImage.src = img;
